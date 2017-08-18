@@ -2,7 +2,7 @@ flows:
   - val:
       spec:
         inputs: [data]
-        outputs: [fc1]
+        outputs: [fc_fusion]
       batch_size: 1 
       devices: gpu(0) # other options: gpu(0) or gpu(0:2)
       feeder:
