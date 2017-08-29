@@ -44,11 +44,6 @@ flows:
 
 loggers:
   - type: local
-  - type: pavi
-    args:
-      url: http://pavi.parrotsdnn.org/log
-      username: yhcao6 
-      password: Cyh1996418 
 
 extra:
   custom_paths: ['/home/yhcao6/resnet_seg', '/home/yhcao6']
